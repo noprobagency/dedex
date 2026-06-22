@@ -4,11 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DEDEX — Componenti tecnici per mute stagne professionali</title>
-<meta name="description" content="DEDEX: terminali stagni in lattice e neoprene, scarpette, calze, tape e bordini, accessori per la costruzione e la riparazione di mute stagne. 5 famiglie, 51 referenze a catalogo. Per produttori, laboratori e diving center. Richiedi informazioni tramite form.">
+<meta name="description" content="DEDEX: terminali stagni in lattice e neoprene, scarpette, calze, tape e bordini per costruzione e riparazione di mute stagne. 51 referenze a catalogo.">
 <meta property="og:title" content="DEDEX — Componenti tecnici per mute stagne professionali">
-<meta property="og:description" content="DEDEX: terminali stagni in lattice e neoprene, scarpette, calze, tape e bordini, accessori per la costruzione e la riparazione di mute stagne. 5 famiglie, 51 referenze a catalogo. Per produttori, laboratori e diving center. Richiedi informazioni tramite form.">
+<meta property="og:description" content="Terminali, scarpette, calze, tape e bordini, accessori per mute stagne professionali. 5 famiglie, 51 referenze a catalogo.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://ddglobalstore.com/wp-content/uploads/2024/06/COLLARE_DEDEX_Q.jpg">
+<!-- og:url — sostituire con il dominio definitivo al go-live -->
+<meta property="og:url" content="https://www.dedex.it/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DEDEX — Componenti tecnici per mute stagne professionali">
+<meta name="twitter:description" content="Terminali, scarpette, calze, tape e bordini, accessori per mute stagne professionali. 51 referenze a catalogo.">
+<meta name="twitter:image" content="https://ddglobalstore.com/wp-content/uploads/2024/06/COLLARE_DEDEX_Q.jpg">
 <meta name="theme-color" content="#FFD800">
+<link rel="preconnect" href="https://ddglobalstore.com">
+<link rel="dns-prefetch" href="https://ddglobalstore.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -17,7 +26,7 @@
     --y:#FFD800; --y2:#E8C400; --k:#111111; --k2:#1A1A1A; --w:#FFFFFF;
     --cream:#F4EFE6; --cream-2:#EFE9DD; --paper:#FAF7F1;
     --line:#E2DDD2; --line-2:#EAE6DC; --ink:#1A1A1A;
-    --muted:#6F6A60; --muted-2:#8A8576;
+    --muted:#655F55; --muted-2:#807B6D;
     --display:'Barlow Condensed', sans-serif;
     --bebas:'Bebas Neue','Barlow Condensed',sans-serif;
     --body:'DM Sans', system-ui, sans-serif;
@@ -50,11 +59,20 @@
   .btn:hover .arrow{transform:translateX(3px)}
 
   /* trust bar */
-  .trustbar{background:#EAE3D3;color:#3a3528;border-bottom:1px solid #d9d2c0}
-  .trustbar-inner{display:flex;align-items:center;justify-content:center;gap:0;padding:9px 16px;flex-wrap:wrap;font-family:var(--mono);text-transform:uppercase;letter-spacing:.18em;font-size:10.5px}
-  .trustbar-inner span.divider{opacity:.35;padding:0 14px}
-  .trustbar-inner .item{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
-  .trustbar-inner .item svg{flex:none}
+  .trustbar{background:#000;color:#fff;border-bottom:1px solid #000}
+  .marquee{display:flex;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent);mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+  .marquee-track{flex:0 0 auto;display:inline-flex;align-items:center;padding:11px 0;font-family:var(--mono);text-transform:uppercase;letter-spacing:.04em;font-size:11.5px;font-weight:500;white-space:nowrap;animation:dx-marquee 42s linear infinite;will-change:transform}
+  .trustbar:hover .marquee-track{animation-play-state:paused}
+  .marquee-track .item{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+  .marquee-track .item svg{flex:none}
+  .marquee-track .divider{color:var(--y);padding:0 24px;font-weight:400}
+  @keyframes dx-marquee{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+  @media (prefers-reduced-motion: reduce){
+    .marquee{flex-wrap:wrap;justify-content:center;mask-image:none;-webkit-mask-image:none}
+    .marquee-track{animation:none;flex-wrap:wrap;justify-content:center;padding:9px 16px}
+    .marquee-track[aria-hidden="true"]{display:none}
+    .marquee-track .divider{padding:0 14px}
+  }
 
   /* navbar */
   .nav{position:sticky;top:0;z-index:50;background:rgba(244,239,230,.92);backdrop-filter:saturate(150%) blur(12px);-webkit-backdrop-filter:saturate(150%) blur(12px);border-bottom:1px solid var(--line)}
@@ -315,21 +333,37 @@
   }
 
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Brand",
+  "name": "DEDEX",
+  "slogan": "Wet & drysuits components",
+  "description": "Componenti tecnici per la costruzione e la riparazione di mute stagne professionali.",
+  "logo": "assets/dedex-logo.webp",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "DD Global Store Srl",
+    "url": "https://www.d-ditaly.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via dell'Industria 49",
+      "postalCode": "34075",
+      "addressLocality": "San Canzian d'Isonzo",
+      "addressRegion": "GO",
+      "addressCountry": "IT"
+    }
+  }
+}
+</script>
 </head>
 <body>
 
 <!-- ==== TRUST BAR ==== -->
 <div class="trustbar">
-  <div class="trustbar-inner" role="region" aria-label="Trust bar">
-    <span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6.5l2.5 2.5L10 3" stroke="#9A8A2E" stroke-width="2" stroke-linecap="square"/></svg>Componenti per mute stagne professionali</span>
-    <span class="divider">/</span>
-    <span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6.5l2.5 2.5L10 3" stroke="#9A8A2E" stroke-width="2" stroke-linecap="square"/></svg>5 famiglie · 51 referenze a catalogo</span>
-    <span class="divider">/</span>
-    <span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6.5l2.5 2.5L10 3" stroke="#9A8A2E" stroke-width="2" stroke-linecap="square"/></svg>Lattice, neoprene e tessuti tecnici</span>
-    <span class="divider">/</span>
-    <span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6.5l2.5 2.5L10 3" stroke="#9A8A2E" stroke-width="2" stroke-linecap="square"/></svg>Termosaldabili · neoprenici · da cucire</span>
-    <span class="divider">/</span>
-    <span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6.5l2.5 2.5L10 3" stroke="#9A8A2E" stroke-width="2" stroke-linecap="square"/></svg>Per produttori, laboratori e diving center</span>
+  <div class="marquee" role="region" aria-label="Punti di forza DEDEX">
+    <div class="marquee-track"><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Componenti per mute stagne professionali</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>5 famiglie · 51 referenze a catalogo</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Lattice, neoprene e tessuti tecnici</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Termosaldabili · neoprenici · da cucire</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Per produttori, laboratori e diving center</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Made in Italy</span><span class="divider" aria-hidden="true">/</span></div>
+    <div class="marquee-track" aria-hidden="true"><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Componenti per mute stagne professionali</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>5 famiglie · 51 referenze a catalogo</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Lattice, neoprene e tessuti tecnici</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Termosaldabili · neoprenici · da cucire</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Per produttori, laboratori e diving center</span><span class="divider" aria-hidden="true">/</span><span class="item"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6.5l2.5 2.5L10 3" stroke="#FFD800" stroke-width="2" stroke-linecap="square"/></svg>Made in Italy</span><span class="divider" aria-hidden="true">/</span></div>
   </div>
 </div>
 
@@ -550,13 +584,13 @@
       </div>
     </div>
     <div class="tabs" role="tablist" aria-label="Famiglie di prodotto">
-      <button class="tab active" data-tab="terminali" role="tab">Terminali Stagni <span class="count">/ 14</span></button>
-      <button class="tab" data-tab="scarpette" role="tab">Scarpette Stagne <span class="count">/ 09</span></button>
-      <button class="tab" data-tab="calze" role="tab">Calze Stagne <span class="count">/ 04</span></button>
-      <button class="tab" data-tab="tape" role="tab">Tape e Bordini <span class="count">/ 17</span></button>
-      <button class="tab" data-tab="accessori" role="tab">Accessori <span class="count">/ 07</span></button>
+      <button class="tab active" id="tab-terminali" data-tab="terminali" role="tab" aria-selected="true" aria-controls="pane-terminali">Terminali Stagni <span class="count">/ 14</span></button>
+      <button class="tab" id="tab-scarpette" data-tab="scarpette" role="tab" aria-selected="false" aria-controls="pane-scarpette">Scarpette Stagne <span class="count">/ 09</span></button>
+      <button class="tab" id="tab-calze" data-tab="calze" role="tab" aria-selected="false" aria-controls="pane-calze">Calze Stagne <span class="count">/ 04</span></button>
+      <button class="tab" id="tab-tape" data-tab="tape" role="tab" aria-selected="false" aria-controls="pane-tape">Tape e Bordini <span class="count">/ 17</span></button>
+      <button class="tab" id="tab-accessori" data-tab="accessori" role="tab" aria-selected="false" aria-controls="pane-accessori">Accessori <span class="count">/ 07</span></button>
     </div>
-    <div class="tab-pane" data-pane="terminali">
+    <div class="tab-pane" id="pane-terminali" data-pane="terminali" role="tabpanel" aria-labelledby="tab-terminali">
       <h3 class="prod-subhead">Lattici <span>/ 11</span></h3>
       <div class="prod-grid">
       <article class="prod-card">
@@ -704,7 +738,7 @@
       </article>
       </div>
     </div>
-    <div class="tab-pane" data-pane="scarpette" hidden>
+    <div class="tab-pane" id="pane-scarpette" data-pane="scarpette" role="tabpanel" aria-labelledby="tab-scarpette" hidden>
       <div class="prod-grid">
       <article class="prod-card">
         <div class="prod-img">
@@ -798,7 +832,7 @@
       </article>
       </div>
     </div>
-    <div class="tab-pane" data-pane="calze" hidden>
+    <div class="tab-pane" id="pane-calze" data-pane="calze" role="tabpanel" aria-labelledby="tab-calze" hidden>
       <div class="prod-grid">
       <article class="prod-card">
         <div class="prod-img">
@@ -842,7 +876,7 @@
       </article>
       </div>
     </div>
-    <div class="tab-pane" data-pane="tape" hidden>
+    <div class="tab-pane" id="pane-tape" data-pane="tape" role="tabpanel" aria-labelledby="tab-tape" hidden>
       <h3 class="prod-subhead">Termosaldabili <span>/ 08</span></h3>
       <div class="prod-grid">
       <article class="prod-card">
@@ -1023,7 +1057,7 @@
       </article>
       </div>
     </div>
-    <div class="tab-pane" data-pane="accessori" hidden>
+    <div class="tab-pane" id="pane-accessori" data-pane="accessori" role="tabpanel" aria-labelledby="tab-accessori" hidden>
       <div class="prod-grid">
       <article class="prod-card">
         <div class="prod-img">
@@ -1111,7 +1145,7 @@
       </div>
     </div>
     <div class="spec-table-wrap reveal">
-      <table class="spec-table">
+      <table class="spec-table" aria-label="Scheda tecnica delle cinque famiglie DEDEX: materiali, finiture, impiego e numero di referenze">
         <thead>
           <tr><th scope="col">Famiglia</th><th scope="col">Materiali</th><th scope="col">Finiture / Versioni</th><th scope="col">Impiego</th><th scope="col" class="num">Ref.</th></tr>
         </thead>
@@ -1197,32 +1231,32 @@
     <p class="sub reveal">Tutto su catalogo, prodotti e modalità di richiesta.</p>
     <div class="faq-list reveal" id="faqList">
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Come richiedo informazioni o un preventivo sui prodotti DEDEX? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">Tramite il form di contatto presente su questo sito. Compila i campi con i dati della tua attività e il dettaglio della richiesta: riceverai una risposta dal nostro reparto commerciale con disponibilità, condizioni e specifiche tecniche.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-1">Come richiedo informazioni o un preventivo sui prodotti DEDEX? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-1"><div class="faq-a-inner">Tramite il form di contatto presente su questo sito. Compila i campi con i dati della tua attività e il dettaglio della richiesta: riceverai una risposta dal nostro reparto commerciale con disponibilità, condizioni e specifiche tecniche.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Posso ordinare direttamente da questo sito? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">No. Questo sito è la vetrina istituzionale del marchio DEDEX e non gestisce ordini online. Le richieste commerciali, inclusi ordini e preventivi, passano dal form di contatto: ti ricontattiamo per finalizzare modalità e tempi.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-2">Posso ordinare direttamente da questo sito? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-2"><div class="faq-a-inner">No. Questo sito è la vetrina istituzionale del marchio DEDEX e non gestisce ordini online. Le richieste commerciali, inclusi ordini e preventivi, passano dal form di contatto: ti ricontattiamo per finalizzare modalità e tempi.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">A chi si rivolge il catalogo DEDEX? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">A clienti professionali: produttori di mute stagne, laboratori di riparazione, diving center e sub tecnici. La gamma è pensata per la costruzione e la manutenzione di mute, non per la vendita al dettaglio occasionale.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-3">A chi si rivolge il catalogo DEDEX? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-3"><div class="faq-a-inner">A clienti professionali: produttori di mute stagne, laboratori di riparazione, diving center e sub tecnici. La gamma è pensata per la costruzione e la manutenzione di mute, non per la vendita al dettaglio occasionale.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Quante famiglie e quante referenze comprende il catalogo? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">Il catalogo DEDEX è organizzato in 5 famiglie — Terminali Stagni, Scarpette Stagne, Calze Stagne, Tape e Bordini, Accessori — per un totale di 51 referenze. Ogni famiglia copre una funzione precisa nella costruzione della muta.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-4">Quante famiglie e quante referenze comprende il catalogo? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-4"><div class="faq-a-inner">Il catalogo DEDEX è organizzato in 5 famiglie — Terminali Stagni, Scarpette Stagne, Calze Stagne, Tape e Bordini, Accessori — per un totale di 51 referenze. Ogni famiglia copre una funzione precisa nella costruzione della muta.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">I terminali sono disponibili in lattice e in neoprene? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">Sì. La famiglia Terminali Stagni comprende una linea in lattice (collari, manicotti polso e caviglia, disponibili anche in versione HD ad alta densità) e tre terminali in neoprene: Dyno e Pyno per i polsi, Cyno per il collo.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-5">I terminali sono disponibili in lattice e in neoprene? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-5"><div class="faq-a-inner">Sì. La famiglia Terminali Stagni comprende una linea in lattice (collari, manicotti polso e caviglia, disponibili anche in versione HD ad alta densità) e tre terminali in neoprene: Dyno e Pyno per i polsi, Cyno per il collo.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Che differenza c&#x27;è tra i tape termosaldabili, neoprenici e da cucire? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">Rispondono a tre tecniche di assemblaggio diverse. I termosaldabili sigillano le cuciture a caldo, i neoprenici servono a bordare e rifinire il neoprene, i da cucire sono bordini e nastri per l&#x27;assemblaggio cucito. La scelta dipende dal metodo costruttivo del tuo laboratorio.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-6">Che differenza c&#x27;è tra i tape termosaldabili, neoprenici e da cucire? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-6"><div class="faq-a-inner">Rispondono a tre tecniche di assemblaggio diverse. I termosaldabili sigillano le cuciture a caldo, i neoprenici servono a bordare e rifinire il neoprene, i da cucire sono bordini e nastri per l&#x27;assemblaggio cucito. La scelta dipende dal metodo costruttivo del tuo laboratorio.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Le scarpette e le calze sono adatte a immersioni in acqua fredda e a uso intensivo? <span class="faq-icon">+</span></button>
-        <div class="faq-a"><div class="faq-a-inner">La gamma copre esigenze diverse: scarpette in neoprene ad alta protezione termica e ad alta abrasione, modelli più leggeri e versioni mesh, calze tecniche con diversi spessori e livelli di isolamento. Indicaci l&#x27;uso previsto nel form e ti orientiamo sul modello più adatto.</div></div>
+        <button class="faq-q" aria-expanded="false" aria-controls="faq-ans-7">Le scarpette e le calze sono adatte a immersioni in acqua fredda e a uso intensivo? <span class="faq-icon">+</span></button>
+        <div class="faq-a" id="faq-ans-7"><div class="faq-a-inner">La gamma copre esigenze diverse: scarpette in neoprene ad alta protezione termica e ad alta abrasione, modelli più leggeri e versioni mesh, calze tecniche con diversi spessori e livelli di isolamento. Indicaci l&#x27;uso previsto nel form e ti orientiamo sul modello più adatto.</div></div>
       </div>
     </div>
   </div>
@@ -1260,11 +1294,11 @@
           <div class="field"><label for="f-nome">Nome <span class="req" aria-hidden="true">*</span></label><input id="f-nome" name="nome" type="text" required autocomplete="given-name"></div>
           <div class="field"><label for="f-cognome">Cognome</label><input id="f-cognome" name="cognome" type="text" autocomplete="family-name"></div>
           <div class="field"><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
-          <div class="field"><label for="f-telefono">Numero di telefono</label><input id="f-telefono" name="telefono" type="tel" inputmode="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-telefono">Numero di telefono</label><input id="f-telefono" name="telefono" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9\s\-\+\(\)]{6,20}" title="Inserisci un numero valido (6-20 caratteri: cifre, spazi e + - ( ) consentiti)"></div>
           <div class="field full"><label for="f-societa">Società</label><input id="f-societa" name="societa" type="text" autocomplete="organization"></div>
           <div class="field full"><label for="f-indirizzo">Indirizzo</label><input id="f-indirizzo" name="indirizzo" type="text" autocomplete="street-address"></div>
           <div class="field"><label for="f-citta">Città</label><input id="f-citta" name="citta" type="text" autocomplete="address-level2"></div>
-          <div class="field"><label for="f-paese">Paese</label><input id="f-paese" name="paese" type="text" placeholder="Italia" autocomplete="country-name"></div>
+          <div class="field"><label for="f-paese">Paese</label><input id="f-paese" name="paese" type="text" placeholder="Italia" autocomplete="country-name" list="countryList"><datalist id="countryList"><option value="Italia"></option><option value="Germania"></option><option value="Francia"></option><option value="Spagna"></option><option value="Svizzera"></option><option value="Austria"></option><option value="Slovenia"></option><option value="Croazia"></option><option value="Paesi Bassi"></option><option value="Belgio"></option><option value="Regno Unito"></option></datalist></div>
           <div class="field full"><label for="f-messaggio">Messaggio <span class="req" aria-hidden="true">*</span></label><textarea id="f-messaggio" name="messaggio" rows="5" required></textarea></div>
           <label class="form-consent full">
             <input type="checkbox" name="consenso" required>
@@ -1317,7 +1351,7 @@
         <h5>Distributore</h5>
         <ul>
           <li>DD Global Store Srl</li>
-          <li><a href="https://www.d-ditaly.com" target="_blank" rel="noopener">www.d-ditaly.com</a></li>
+          <li><a href="https://www.d-ditaly.com" target="_blank" rel="noopener" aria-label="Visita d-ditaly.com (si apre in una nuova finestra)">www.d-ditaly.com</a></li>
           <li>Via dell'Industria 49<br>34075 San Canzian d'Isonzo (GO)</li>
         </ul>
       </div>
@@ -1348,7 +1382,7 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
   var panes = Array.prototype.slice.call(document.querySelectorAll('.tab-pane'));
   function activateTab(id){
-    tabs.forEach(function(x){ x.classList.toggle('active', x.dataset.tab === id); });
+    tabs.forEach(function(x){ var on = x.dataset.tab === id; x.classList.toggle('active', on); x.setAttribute('aria-selected', on ? 'true' : 'false'); });
     panes.forEach(function(p){ p.hidden = p.dataset.pane !== id; });
   }
   tabs.forEach(function(t){ t.addEventListener('click', function(){ activateTab(t.dataset.tab); }); });
@@ -1449,6 +1483,7 @@
           statusEl.className = 'form-status ok';
           statusEl.textContent = form.dataset.success || 'Richiesta inviata. Ti ricontattiamo al più presto con i dettagli.';
           form.reset();
+          setTimeout(function(){ statusEl.className = 'form-status'; statusEl.textContent = ''; }, 6000);
         })
         .catch(function(){
           statusEl.className = 'form-status err';
