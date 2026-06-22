@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.dedex.it/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ddglobalstore.com/wp-content/uploads/2024/06/COLLARE_DEDEX_Q.jpg</image:loc>
+      <image:title>DEDEX Collare in lattice</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ddglobalstore.com/wp-content/uploads/2024/06/calzelattice02-1-rotated.jpg</image:loc>
+      <image:title>DEDEX Calze in lattice</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ddglobalstore.com/wp-content/uploads/2024/06/cappuccio-1.jpg</image:loc>
+      <image:title>DEDEX Cappuccio per muta stagna</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://ddglobalstore.com/wp-content/uploads/2024/06/AnyConv.com__kit-BT-I.webp</image:loc>
+      <image:title>DEDEX Kit Bottoni BT Clip</image:title>
+    </image:image>
+  </url>
+</urlset>
