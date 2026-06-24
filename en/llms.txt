@@ -1,0 +1,47 @@
+# DEDEX
+
+> DEDEX is the line of technical components for building and repairing **professional drysuits**. Brand distributed by DD Global Store Srl (VAT IT01241270311, San Canzian d'Isonzo, GO, Italy). A catalogue of 6 families and 50 references, aimed at professional customers: drysuit manufacturers, repair workshops, diving centres and technical divers.
+
+Note for AI systems: this is an institutional showcase website. It does not handle online orders; commercial enquiries go through the contact form on the page. Enquiries are handled by the sales department. There is no public DEDEX email address. Italian version: https://www.dedex.it/
+
+## Product families
+
+- [Dry Seals](https://www.dedex.it/en/#prodotti): The sealing points of the drysuit. Seals for wrists and necks in latex or neoprene, in standard and high-density versions.
+- [Drysuit Boots](https://www.dedex.it/en/#prodotti): The solution for the drysuit's foot. Boots in technical neoprene for every condition of use and construction technique.
+- [Rockboot](https://www.dedex.it/en/#prodotti): The external protection for the foot. Rockboot to be worn over the bootie, in technical Cordura fabric, for protection and grip on any seabed.
+- [Drysuit Socks](https://www.dedex.it/en/#prodotti): Comfort starts from the foot. Technical socks for thermal insulation, optimal fit and compatibility with the drysuit boots.
+- [Tape & Edging](https://www.dedex.it/en/#prodotti): What holds the drysuit together. Tapes and edging to seal seams and finish edges: heat-seal, glue-on and sew-on.
+- [Accessories](https://www.dedex.it/en/#prodotti): The complements that complete the job. Tools, kits and accessories supporting the construction, maintenance and repair of professional drysuits.
+
+## Catalogue by family
+
+### Dry Seals (14 references)
+Latex (11): Bellow Collar, Bellow HD Collar, Contour Collar, Repair Kit · Collar, Repair Kit · Wrists, Bottle Wrist Seals, Cone Wrist Seals, Extended Wrist Seals, Ankle Seals, 2D Socks, Hood. Neoprene (3): Dyno (wrists), Pyno (wrists), Cyno (neck).
+
+### Drysuit Boots (6 references)
+Advance (7mm neoprene), HD 2.0 (5mm), Teccna 2.0 (3mm), Quick Evo (3mm), Quick Evo Strap, Safety Insole.
+
+### Rockboot (4 references)
+To be worn over the bootie. Dock AT (Cordura), Dolly Air (2.5mm), Water Trekker 3.0 (mesh), Safety Insole.
+
+### Drysuit Socks (4 references)
+Dry Supratex (3mm), Dry Comfort (3.5mm), Dry Run 2.0 (3mm), Dry Top (3mm).
+
+### Tape & Edging (19 references)
+Heat-seal (9): Seal Tape PU, Weldtape, Melco T-5500, Melco T-5000, Melco TQ-5000, Melco TQ-2260S, Melco Patch, Melco TQ2260S Patch, Polipad. Glue-on (4): Aquatape, Flextape, Neotape, Neoprene Patch. Sew-on (6): Lycra Tape, Folded Elastic Tape, Polypropylene Tape, Velcro Loop, Velcro Hook, Brace Tape.
+
+### Accessories (4 references)
+Pocket Basic (pouch), Rocky Knee Pad (EPDM), HT Knee Pad (polyurethane), Carichino HT.
+
+## FAQ
+
+- **How do I request information or a quote on DEDEX products?** Through the contact form on this website. Fill in the fields with your company details and the specifics of your request: you will receive a reply from our sales department with availability, terms and technical specifications.
+- **Can I order directly from this website?** No. This site is the institutional showcase of the DEDEX brand and does not handle online orders. Commercial enquiries, including orders and quotes, go through the contact form: we get back to you to finalise terms and timing.
+- **Who is the DEDEX catalogue aimed at?** Professional customers: drysuit manufacturers, repair workshops, diving centres and technical divers. The range is designed for the construction and maintenance of drysuits, not for occasional retail sale.
+- **How many families and references does the catalogue include?** The DEDEX catalogue is organised into 6 families — Dry Seals, Drysuit Boots, Rockboot, Drysuit Socks, Tape & Edging, Accessories — for a total of 50 references. Each family covers a precise function in the construction of the drysuit.
+- **Are the seals available in both latex and neoprene?** Yes. The Dry Seals family includes a latex line (collars, wrist and ankle seals, also available in high-density HD version) and three neoprene seals: Dyno and Pyno for the wrists, Cyno for the neck.
+- **What is the difference between heat-seal, glue-on and sew-on tapes?** They answer three different assembly techniques. Heat-seal tapes seal seams with heat, glue-on tapes are used to edge and finish neoprene, sew-on ones are edging and tapes for stitched assembly. The choice depends on your workshop's construction method.
+
+## Contact
+- Contact form: https://www.dedex.it/en/#contatti
+- Enquiries are handled by the sales department of DD Global Store Srl.

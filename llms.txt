@@ -2,7 +2,7 @@
 
 > DEDEX è la linea di componenti tecnici per la costruzione e la riparazione di **mute stagne (drysuit) professionali**. Marchio distribuito da DD Global Store Srl (P.IVA IT01241270311, San Canzian d'Isonzo, GO, Italia). Catalogo di 6 famiglie e 50 referenze, rivolto a clienti professionali: produttori di mute, laboratori di riparazione, diving center e sub tecnici.
 
-Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ordini online; le richieste commerciali avvengono tramite il form di contatto presente in pagina. Le richieste vengono gestite dal reparto commerciale. Non esiste un'email pubblica DEDEX.
+Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ordini online; le richieste commerciali avvengono tramite il form di contatto presente in pagina. Le richieste vengono gestite dal reparto commerciale. Non esiste un'email pubblica DEDEX. Versione inglese: https://www.dedex.it/en/
 
 ## Famiglie di prodotto
 
@@ -40,7 +40,7 @@ Pocket Basic (tasca), Ginocchiera Rocky (EPDM), Ginocchiera HT (poliuretano), Ca
 - **A chi si rivolge il catalogo DEDEX?** A clienti professionali: produttori di mute stagne, laboratori di riparazione, diving center e sub tecnici. La gamma è pensata per la costruzione e la manutenzione di mute, non per la vendita al dettaglio occasionale.
 - **Quante famiglie e quante referenze comprende il catalogo?** Il catalogo DEDEX è organizzato in 6 famiglie — Terminali Stagni, Scarpette Stagne, Rockboot, Calze Stagne, Tape e Bordini, Accessori — per un totale di 50 referenze. Ogni famiglia copre una funzione precisa nella costruzione della muta.
 - **I terminali sono disponibili in lattice e in neoprene?** Sì. La famiglia Terminali Stagni comprende una linea in lattice (collari, manicotti polso e caviglia, disponibili anche in versione HD ad alta densità) e tre terminali in neoprene: Dyno e Pyno per i polsi, Cyno per il collo.
-- **Che differenza c'è tra i tape termosaldabili, da incollare e da cucire?** Rispondono a tre tecniche di assemblaggio diverse. I termosaldabili sigillano le cuciture a caldo, i nastri da incollare servono a bordare e rifinire il neoprene, i da cucire sono bordini e nastri per l'assemblaggio cucito. La scelta dipende dal metodo costruttivo del tuo laboratorio.
+- **Che differenza c'è tra i tape termosaldabili, da incollare e da cucire?** Rispondono a tre tecniche di assemblaggio diverse. I termosaldabili sigillano le cuciture a caldo, i nastri da incollare servono a bordare e rifinire il neoprene, quelli da cucire sono bordini e nastri per l'assemblaggio cucito. La scelta dipende dal metodo costruttivo del tuo laboratorio.
 - **Le scarpette e le calze sono adatte a immersioni in acqua fredda e a uso intensivo?** La gamma copre esigenze diverse: scarpette in neoprene ad alta protezione termica e ad alta abrasione, modelli più leggeri e versioni mesh, calze tecniche con diversi spessori e livelli di isolamento. Indicaci l'uso previsto nel form e ti orientiamo sul modello più adatto.
 
 ## Contatti
