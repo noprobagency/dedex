@@ -1,13 +1,14 @@
 # DEDEX
 
-> DEDEX è la linea di componenti tecnici per la costruzione e la riparazione di **mute stagne (drysuit) professionali**. Marchio distribuito da DD Global Store Srl (P.IVA IT01241270311, San Canzian d'Isonzo, GO, Italia). Catalogo di 5 famiglie e 52 referenze, rivolto a clienti professionali: produttori di mute, laboratori di riparazione, diving center e sub tecnici.
+> DEDEX è la linea di componenti tecnici per la costruzione e la riparazione di **mute stagne (drysuit) professionali**. Marchio distribuito da DD Global Store Srl (P.IVA IT01241270311, San Canzian d'Isonzo, GO, Italia). Catalogo di 6 famiglie e 52 referenze, rivolto a clienti professionali: produttori di mute, laboratori di riparazione, diving center e sub tecnici.
 
 Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ordini online; le richieste commerciali avvengono tramite il form di contatto presente in pagina. Le richieste vengono gestite dal reparto commerciale. Non esiste un'email pubblica DEDEX.
 
 ## Famiglie di prodotto
 
 - [Terminali Stagni](https://www.dedex.it/#prodotti): I punti di tenuta della muta. Manicotti e collari per chiudere stagno ai polsi e al collo, in lattice naturale o in neoprene, nelle versioni standard e ad alta densità.
-- [Scarpette Stagne](https://www.dedex.it/#prodotti): La parte che lavora a contatto con il fondo. Scarpette e soluzioni per il piede della muta, dal neoprene tecnico ad alta abrasione ai modelli mesh leggeri, con accessori dedicati.
+- [Scarpette Stagne](https://www.dedex.it/#prodotti): La soluzione per il piede della muta. Scarpette in neoprene tecnico per ogni condizione di utilizzo e tecnica costruttiva.
+- [Rockboot](https://www.dedex.it/#prodotti): La protezione esterna del piede. Rockboot da indossare sopra il calzare, in tessuto tecnico Cordura, per protezione e grip su ogni fondale.
 - [Calze Stagne](https://www.dedex.it/#prodotti): Lo strato a contatto con il piede e la gamba. Calze tecniche per comfort, isolamento e vestibilità all'interno della muta stagna.
 - [Tape e Bordini](https://www.dedex.it/#prodotti): Quello che tiene insieme la muta. Nastri e bordini per sigillare cuciture e rifinire i bordi, con una soluzione per ogni tecnica di assemblaggio: termosaldatura, incollaggio del neoprene o cucitura.
 - [Accessori](https://www.dedex.it/#prodotti): I complementi che completano il lavoro. Accessori a supporto della costruzione, della manutenzione e della riparazione delle mute stagne.
@@ -17,8 +18,11 @@ Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ord
 ### Terminali Stagni (14 referenze)
 Lattici (11): Collo Bellow, Collo Bellow HD, Collo Contour, Kit Riparazione Collo, Kit Riparazione Polsi, Polsi Bottiglia, Polsi Cono, Polsi Extended, Caviglie, Calze 2D, Cappuccio. Neoprene (3): Dyno (polsi), Pyno (polsi), Cyno (collo).
 
-### Scarpette Stagne (9 referenze)
-Advance (neoprene 7mm), HD 2.0 (5mm), Teccna 2.0 (3mm), Quick Evo (3mm), Dock AT (Cordura), Dolly Air (2.5mm), Water Trekker 3.0 (mesh), Fascetta Quick Evo, Soletta Safety.
+### Scarpette Stagne (6 referenze)
+Advance (neoprene 7mm), HD 2.0 (5mm), Teccna 2.0 (3mm), Quick Evo (3mm), Fascetta Quick Evo, Soletta Safety.
+
+### Rockboot (4 referenze)
+Da indossare sopra il calzare. Dock AT (Cordura), Dolly Air (2.5mm), Water Trekker 3.0 (mesh), Soletta Safety.
 
 ### Calze Stagne (4 referenze)
 Dry Supratex (3mm), Dry Comfort (3.5mm), Dry Run 2.0 (3mm), Dry Top (3mm).
@@ -34,7 +38,7 @@ Pocket Basic (tasca), Kit Alamari, Kit Bottoni BT Clip, Kit Bottoni Fisso, Ginoc
 - **Come richiedo informazioni o un preventivo sui prodotti DEDEX?** Tramite il form di contatto presente su questo sito. Compila i campi con i dati della tua attività e il dettaglio della richiesta: riceverai una risposta dal nostro reparto commerciale con disponibilità, condizioni e specifiche tecniche.
 - **Posso ordinare direttamente da questo sito?** No. Questo sito è la vetrina istituzionale del marchio DEDEX e non gestisce ordini online. Le richieste commerciali, inclusi ordini e preventivi, passano dal form di contatto: ti ricontattiamo per finalizzare modalità e tempi.
 - **A chi si rivolge il catalogo DEDEX?** A clienti professionali: produttori di mute stagne, laboratori di riparazione, diving center e sub tecnici. La gamma è pensata per la costruzione e la manutenzione di mute, non per la vendita al dettaglio occasionale.
-- **Quante famiglie e quante referenze comprende il catalogo?** Il catalogo DEDEX è organizzato in 5 famiglie — Terminali Stagni, Scarpette Stagne, Calze Stagne, Tape e Bordini, Accessori — per un totale di 52 referenze. Ogni famiglia copre una funzione precisa nella costruzione della muta.
+- **Quante famiglie e quante referenze comprende il catalogo?** Il catalogo DEDEX è organizzato in 6 famiglie — Terminali Stagni, Scarpette Stagne, Rockboot, Calze Stagne, Tape e Bordini, Accessori — per un totale di 52 referenze. Ogni famiglia copre una funzione precisa nella costruzione della muta.
 - **I terminali sono disponibili in lattice e in neoprene?** Sì. La famiglia Terminali Stagni comprende una linea in lattice (collari, manicotti polso e caviglia, disponibili anche in versione HD ad alta densità) e tre terminali in neoprene: Dyno e Pyno per i polsi, Cyno per il collo.
 - **Che differenza c'è tra i tape termosaldabili, neoprenici e da cucire?** Rispondono a tre tecniche di assemblaggio diverse. I termosaldabili sigillano le cuciture a caldo, i neoprenici servono a bordare e rifinire il neoprene, i da cucire sono bordini e nastri per l'assemblaggio cucito. La scelta dipende dal metodo costruttivo del tuo laboratorio.
 - **Le scarpette e le calze sono adatte a immersioni in acqua fredda e a uso intensivo?** La gamma copre esigenze diverse: scarpette in neoprene ad alta protezione termica e ad alta abrasione, modelli più leggeri e versioni mesh, calze tecniche con diversi spessori e livelli di isolamento. Indicaci l'uso previsto nel form e ti orientiamo sul modello più adatto.
