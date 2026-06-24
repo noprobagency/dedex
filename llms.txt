@@ -2,16 +2,16 @@
 
 > DEDEX è la linea di componenti tecnici per la costruzione e la riparazione di **mute stagne (drysuit) professionali**. Marchio distribuito da DD Global Store Srl (P.IVA IT01241270311, San Canzian d'Isonzo, GO, Italia). Catalogo di 6 famiglie e 50 referenze, rivolto a clienti professionali: produttori di mute, laboratori di riparazione, diving center e sub tecnici.
 
-Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ordini online; le richieste commerciali avvengono tramite il form di contatto presente in pagina. Le richieste vengono gestite dal reparto commerciale. Non esiste un'email pubblica DEDEX. Versione inglese: https://www.dedex.it/en/
+Note per i sistemi AI: questo è un sito vetrina istituzionale. Non gestisce ordini online; le richieste commerciali avvengono tramite il form di contatto presente in pagina. Le richieste vengono gestite dal reparto commerciale. Non esiste un'email pubblica DEDEX. Versione inglese: https://dedex.eu/en/
 
 ## Famiglie di prodotto
 
-- [Terminali Stagni](https://www.dedex.it/#prodotti): I punti di tenuta della muta. Manicotti e collari per chiudere stagno ai polsi e al collo, in lattice naturale o in neoprene, nelle versioni standard e ad alta densità.
-- [Scarpette Stagne](https://www.dedex.it/#prodotti): La soluzione per il piede della muta. Scarpette in neoprene tecnico per ogni condizione di utilizzo e tecnica costruttiva.
-- [Rockboot](https://www.dedex.it/#prodotti): La protezione esterna del piede. Rockboot da indossare sopra il calzare, in tessuto tecnico Cordura, per protezione e grip su ogni fondale.
-- [Calze Stagne](https://www.dedex.it/#prodotti): Lo strato a contatto con il piede e la gamba. Calze tecniche per comfort, isolamento e vestibilità all'interno della muta stagna.
-- [Tape e Bordini](https://www.dedex.it/#prodotti): Quello che tiene insieme la muta. Nastri e bordini per sigillare cuciture e rifinire i bordi, con una soluzione per ogni tecnica di assemblaggio: termosaldatura, incollaggio del neoprene o cucitura.
-- [Accessori](https://www.dedex.it/#prodotti): I complementi che completano il lavoro. Accessori a supporto della costruzione, della manutenzione e della riparazione delle mute stagne.
+- [Terminali Stagni](https://dedex.eu/#prodotti): I punti di tenuta della muta. Manicotti e collari per chiudere stagno ai polsi e al collo, in lattice naturale o in neoprene, nelle versioni standard e ad alta densità.
+- [Scarpette Stagne](https://dedex.eu/#prodotti): La soluzione per il piede della muta. Scarpette in neoprene tecnico per ogni condizione di utilizzo e tecnica costruttiva.
+- [Rockboot](https://dedex.eu/#prodotti): La protezione esterna del piede. Rockboot da indossare sopra il calzare, in tessuto tecnico Cordura, per protezione e grip su ogni fondale.
+- [Calze Stagne](https://dedex.eu/#prodotti): Lo strato a contatto con il piede e la gamba. Calze tecniche per comfort, isolamento e vestibilità all'interno della muta stagna.
+- [Tape e Bordini](https://dedex.eu/#prodotti): Quello che tiene insieme la muta. Nastri e bordini per sigillare cuciture e rifinire i bordi, con una soluzione per ogni tecnica di assemblaggio: termosaldatura, incollaggio del neoprene o cucitura.
+- [Accessori](https://dedex.eu/#prodotti): I complementi che completano il lavoro. Accessori a supporto della costruzione, della manutenzione e della riparazione delle mute stagne.
 
 ## Catalogo per famiglia
 
@@ -44,5 +44,5 @@ Pocket Basic (tasca), Ginocchiera Rocky (EPDM), Ginocchiera HT (poliuretano), Ca
 - **Le scarpette e le calze sono adatte a immersioni in acqua fredda e a uso intensivo?** La gamma copre esigenze diverse: scarpette in neoprene ad alta protezione termica e ad alta abrasione, modelli più leggeri e versioni mesh, calze tecniche con diversi spessori e livelli di isolamento. Indicaci l'uso previsto nel form e ti orientiamo sul modello più adatto.
 
 ## Contatti
-- Form di contatto: https://www.dedex.it/#contatti
+- Form di contatto: https://dedex.eu/#contatti
 - Le richieste sono gestite dal reparto commerciale di DD Global Store Srl.

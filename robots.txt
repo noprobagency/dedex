@@ -26,4 +26,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.dedex.it/sitemap.xml
+Sitemap: https://dedex.eu/sitemap.xml

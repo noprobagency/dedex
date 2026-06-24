@@ -2,16 +2,16 @@
 
 > DEDEX is the line of technical components for building and repairing **professional drysuits**. Brand distributed by DD Global Store Srl (VAT IT01241270311, San Canzian d'Isonzo, GO, Italy). A catalogue of 6 families and 50 references, aimed at professional customers: drysuit manufacturers, repair workshops, diving centres and technical divers.
 
-Note for AI systems: this is an institutional showcase website. It does not handle online orders; commercial enquiries go through the contact form on the page. Enquiries are handled by the sales department. There is no public DEDEX email address. Italian version: https://www.dedex.it/
+Note for AI systems: this is an institutional showcase website. It does not handle online orders; commercial enquiries go through the contact form on the page. Enquiries are handled by the sales department. There is no public DEDEX email address. Italian version: https://dedex.eu/
 
 ## Product families
 
-- [Dry Seals](https://www.dedex.it/en/#prodotti): The sealing points of the drysuit. Seals for wrists and necks in latex or neoprene, in standard and high-density versions.
-- [Drysuit Boots](https://www.dedex.it/en/#prodotti): The solution for the drysuit's foot. Boots in technical neoprene for every condition of use and construction technique.
-- [Rockboot](https://www.dedex.it/en/#prodotti): The external protection for the foot. Rockboot to be worn over the bootie, in technical Cordura fabric, for protection and grip on any seabed.
-- [Drysuit Socks](https://www.dedex.it/en/#prodotti): Comfort starts from the foot. Technical socks for thermal insulation, optimal fit and compatibility with the drysuit boots.
-- [Tape & Edging](https://www.dedex.it/en/#prodotti): What holds the drysuit together. Tapes and edging to seal seams and finish edges: heat-seal, glue-on and sew-on.
-- [Accessories](https://www.dedex.it/en/#prodotti): The complements that complete the job. Tools, kits and accessories supporting the construction, maintenance and repair of professional drysuits.
+- [Dry Seals](https://dedex.eu/en/#prodotti): The sealing points of the drysuit. Seals for wrists and necks in latex or neoprene, in standard and high-density versions.
+- [Drysuit Boots](https://dedex.eu/en/#prodotti): The solution for the drysuit's foot. Boots in technical neoprene for every condition of use and construction technique.
+- [Rockboot](https://dedex.eu/en/#prodotti): The external protection for the foot. Rockboot to be worn over the bootie, in technical Cordura fabric, for protection and grip on any seabed.
+- [Drysuit Socks](https://dedex.eu/en/#prodotti): Comfort starts from the foot. Technical socks for thermal insulation, optimal fit and compatibility with the drysuit boots.
+- [Tape & Edging](https://dedex.eu/en/#prodotti): What holds the drysuit together. Tapes and edging to seal seams and finish edges: heat-seal, glue-on and sew-on.
+- [Accessories](https://dedex.eu/en/#prodotti): The complements that complete the job. Tools, kits and accessories supporting the construction, maintenance and repair of professional drysuits.
 
 ## Catalogue by family
 
@@ -43,5 +43,5 @@ Pocket Basic (pouch), Rocky Knee Pad (EPDM), HT Knee Pad (polyurethane), Carichi
 - **What is the difference between heat-seal, glue-on and sew-on tapes?** They answer three different assembly techniques. Heat-seal tapes seal seams with heat, glue-on tapes are used to edge and finish neoprene, sew-on ones are edging and tapes for stitched assembly. The choice depends on your workshop's construction method.
 
 ## Contact
-- Contact form: https://www.dedex.it/en/#contatti
+- Contact form: https://dedex.eu/en/#contatti
 - Enquiries are handled by the sales department of DD Global Store Srl.

@@ -3,10 +3,10 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.dedex.it/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.dedex.it/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dedex.it/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dedex.it/"/>
+    <loc>https://dedex.eu/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dedex.eu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dedex.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dedex.eu/"/>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -28,10 +28,10 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.dedex.it/en/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.dedex.it/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dedex.it/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dedex.it/"/>
+    <loc>https://dedex.eu/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dedex.eu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dedex.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dedex.eu/"/>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
