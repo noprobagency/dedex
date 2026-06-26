@@ -349,6 +349,14 @@
     .prod-body h4{font-size:15px}
   }
 
+  .ckb{position:fixed;left:18px;bottom:18px;z-index:60;max-width:380px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--y);box-shadow:0 14px 34px rgba(0,0,0,.16);padding:18px 20px;display:none}
+  .ckb.show{display:block}
+  .ckb p{font-size:13px;line-height:1.6;color:#3a3a36;margin:0 0 14px}
+  .ckb .row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .ckb a{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--y);text-decoration:none;padding-bottom:2px}
+  .ckb button{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:12.5px;background:var(--ink);color:#fff;border:0;padding:11px 20px;border-radius:2px;cursor:pointer}
+  .ckb button:hover{background:#000}
+  @media (max-width:520px){.ckb{left:12px;right:12px;bottom:12px;max-width:none}}
 </style>
 <script type="application/ld+json">
 {
@@ -1569,8 +1577,8 @@
           <li><a href="#catalogo">Catalogue</a></li>
           <li><a href="#chi">About</a></li>
           <li><a href="#contatti">Contact</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="/en/privacy.html">Privacy Policy</a></li>
+          <li><a href="/en/cookie.html">Cookie Policy</a></li>
         </ul>
       </div>
     </div>
@@ -1703,5 +1711,10 @@
 
 </script>
 
+<aside class="ckb" id="cookieBanner" role="dialog" aria-label="Cookie notice">
+  <p>This website uses only technical cookies and resources necessary for it to work. No tracking, no profiling.</p>
+  <div class="row"><a href="/en/cookie.html">Cookie policy</a><button type="button" id="cookieOk">Got it</button></div>
+</aside>
+<script>(function(){try{var k='dedex_cookie_ack';var b=document.getElementById('cookieBanner');if(!b)return;if(!localStorage.getItem(k)){b.classList.add('show');}var ok=document.getElementById('cookieOk');if(ok){ok.addEventListener('click',function(){try{localStorage.setItem(k,'1')}catch(e){}b.classList.remove('show');});}}catch(e){}})();</script>
 </body>
 </html>
